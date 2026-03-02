@@ -10,11 +10,15 @@
 
       <table border="1" cellpadding="6">
         <tr><th>Código</th><th>Módulo</th><th>Horas</th></tr>
-        <tr>
-          <td><xsl:value-of select="oferta/modulo/codigo"/></td>
-          <td><xsl:value-of select="oferta/modulo/nombre"/></td>
-          <td><xsl:value-of select="oferta/modulo/horas"/></td>
-        </tr>
+
+        <xsl:for-each select="oferta/modulo">
+          <tr>
+            <td><xsl:value-of select="codigo"/></td>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="horas"/></td>
+          </tr>
+        </xsl:for-each>
+
       </table>
 
       <p><strong>Total horas:</strong>

@@ -11,4 +11,15 @@
       <horas>20</horas>
     </unidad>
   </modulo>
+  <modulo>
+    <codigo>0375</codigo>
+    <nombre>Servicios de Red Internet</nombre>
+    <horas>170</horas>
+    <requisito>Conocimientos básicos de redes</requisito>
+    <resultado>Configurar servicios básicos de red</resultado>
+    <unidad>
+      <titulo>Servicios básicos: DNS, DHCP y HTTP</titulo>
+      <horas>60</horas>
+    </unidad>
+  </modulo>
 </oferta>
