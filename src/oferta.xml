@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oferta>
+  <modulo>
+    <codigo>0373</codigo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas>140</horas>
+    <requisito>Conocimientos básicos</requisito>
+    <resultado>Modelar datos en XML</resultado>
+    <unidad>
+      <titulo>XSLT</titulo>
+      <horas>20</horas>
+    </unidad>
+  </modulo>
+</oferta>
